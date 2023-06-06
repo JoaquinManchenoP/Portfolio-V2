@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import Logo from '../app/components/logo';
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-[700px] p-4 bg-purple-300">
-      <div className="h-screen">
-        <h1 className="text-2xl font-bold mb-4">About me</h1>
-        <div className="project__container space-y-4">
+      <Logo />
+      <div className="h-screen mt-20 space-y-20">
+        <h1 className="text-3xl font-bold mb-4">HI</h1>
+        <div className="project__container ">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
           pariatur vel quidem nulla, facere nobis, fugiat odit eaque eveniet
           cumque, nemo delectus libero voluptatum! Libero laudantium tenetur
@@ -18,12 +20,14 @@ export default function Home() {
           possimus temporibus dolore facilis voluptatibus aspernatur nulla,
           quidem cupiditate voluptas minus similique. Unde, quidem?
         </div>
-        <Link
-          href="/ProjectPage"
-          className="bg-blue-400  hover:bg-blue-500 text-white font-bold py-2 px-4  rounded"
-        >
-          Projects
-        </Link>
+        <div className="link">
+          <Link
+            href="/ProjectPage"
+            className="bg-blue-400  hover:bg-blue-500 text-white font-bold py-2 px-4  rounded"
+          >
+            Projects
+          </Link>
+        </div>
       </div>
     </div>
   );
