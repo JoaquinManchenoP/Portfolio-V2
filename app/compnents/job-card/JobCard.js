@@ -5,8 +5,13 @@ export default function JobCard({ backgroundImage }) {
   return (
     <div className="card w-full bg-orange-400 rounded-lg shadow-md overflow-hidden">
       <div className="flex">
-        <div className="w-1/3 flex items-center justify-center bg-green-400">
-          <Image src={backgroundImage} width="300" height="300" />
+        <div className="w-1/3 flex justify-center my-8">
+          <Image
+            src={backgroundImage}
+            width="300"
+            height="300"
+            className="object-cover "
+          />
         </div>
         <div className="card-text p-4 w-2/3 space-y-4 bg-red-300  ">
           <h3 className="text-gray-600 text-lg">Card Title</h3>
