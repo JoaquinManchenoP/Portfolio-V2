@@ -20,17 +20,7 @@ export default function Home() {
           </div>
         </div>
         <div className="project__container ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-          pariatur vel quidem nulla, facere nobis, fugiat odit eaque eveniet
-          cumque, nemo delectus libero voluptatum! Libero laudantium tenetur
-          unde ut. Dicta rem sapiente debitis a, tenetur eligendi nihil natus
-          excepturi saepe, voluptatem, fuga necessitatibus quod ea. Assumenda
-          commodi dicta eum pariatur recusandae atque labore illum in voluptas!
-          Numquam sunt velit fuga accusamus? Temporibus amet quia accusantium a
-          libero voluptate labore odio placeat molestias! Ad, quisquam aperiam
-          voluptatum sint repellendus in magni ipsam sequi sit quas soluta harum
-          possimus temporibus dolore facilis voluptatibus aspernatur nulla,
-          quidem cupiditate voluptas minus similique. Unde, quidem?
+          My name is Joaquin Mancheno I graduated from the college of charleston
         </div>
         <div className="links flex justify-between mx-32">
           <div className="project__link flex flex-col">
