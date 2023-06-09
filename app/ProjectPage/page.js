@@ -33,7 +33,16 @@ export default function ProjectPage() {
         <div className="projects h-screen">
           <h1 className="text-4xl my-7">Projects</h1>
           <div className="project__container space-y-6">
-            <span>Placeholder</span>
+            <JobCard
+              job={'Dubow'}
+              jobTitle={'Dubow Textile'}
+              jobDescription={
+                "Dubow is a textile manufacturing company located in Minnesota.The companies web applicaiton is used by costumers to manage and customize their orders, while the company's api provides de ability for customer's to access the same data from outside the dubow aplication such as the clients own custom applications.I Worked fixing customer issues and customer suport as well as implementing new features."
+              }
+              image={'/images/dubowWebsite.png'}
+              website={'https://dubowtextile.com/'}
+              demo={true}
+            />
           </div>
         </div>
       </div>

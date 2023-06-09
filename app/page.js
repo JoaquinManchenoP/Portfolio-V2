@@ -15,7 +15,7 @@ export default function Home() {
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1.5, delay: 0.2 }}
+            transition={{ duration: 2, delay: 0.2 }}
             className="text-8xl"
           >
             Hello!
