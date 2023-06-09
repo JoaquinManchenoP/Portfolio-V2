@@ -37,15 +37,28 @@ export default function Home() {
           academic and professional experience as a software developer.Feel free
           too look around and please don't hesitate to get in touch
         </div>
-        <div className="links flex justify-between mx-32">
-          <div className="project__link flex flex-col">
-            <span>{'>>>>'}</span>
-            <span>Resume</span>
-          </div>
+        <div className="links flex justify-between">
           <Link href={'/ProjectPage'}>
-            <div className="resume__link flex flex-col">
-              <span>{'>>>'}</span>
-              <span>Projects</span>
+            <div className="projects__link space-x-2 space-y-2">
+              <span className="font-bold pl-2">Resume</span>
+              <span className="font-bold">{'>>>'}</span>
+              <div className="description w-[250px]">
+                <span className="text-sm font-light">
+                  Take a look or download my resume
+                </span>
+              </div>
+            </div>
+          </Link>
+          <Link href={'/ProjectPage'}>
+            <div className="projects__link space-x-2 space-y-2">
+              <span className="font-bold pl-2">Projects</span>
+              <span className="font-bold">{'>>>'}</span>
+              <div className="description w-[250px]">
+                <span className="text-sm font-light">
+                  A Collection of projects I've built on my journey to becoming
+                  a software developer.
+                </span>
+              </div>
             </div>
           </Link>
         </div>
