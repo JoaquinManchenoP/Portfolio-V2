@@ -1,6 +1,7 @@
 import React from 'react';
-import JobCard from '../compnents/job-card/JobCard';
+import JobCard from '../compnents/JobCard/JobCard';
 import Logo from '../compnents/Logo/Logo';
+import jobData from '../compnents/JobCard/jobData';
 
 export default function ProjectPage() {
   return (
@@ -9,14 +10,14 @@ export default function ProjectPage() {
       <div className="experience h-screen">
         <h1 className="text-4xl my-7">Experience</h1>
         <div className="project__container space-y-6">
-          <JobCard backgroundImage={'/images/mednet.png'} />
-          <JobCard backgroundImage={'/images/mednet.png'} />
+          {jobData.map((item, index) => (
+            <JobCard job={item} key={index} />
+          ))}
         </div>
         <div className="projects h-screen">
           <h1 className="text-4xl my-7">Projects</h1>
           <div className="project__container space-y-6">
-            <JobCard backgroundImage={'/images/mednet.png'} />
-            <JobCard backgroundImage={'/images/mednet.png'} />
+            <span>Placeholder</span>
           </div>
         </div>
       </div>
