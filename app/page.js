@@ -4,7 +4,6 @@ import Logo from '../app/compnents/Logo/Logo';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
 
 export default function Home() {
   return (

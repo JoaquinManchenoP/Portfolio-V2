@@ -9,6 +9,7 @@ export default function JobCard({
   website,
   github,
   demo,
+  technologies,
 }) {
   return (
     <div className="card w-full bg-greem-500  rounded-lg shadow-md overflow-hidden bg-gray-700 ">
@@ -24,15 +25,28 @@ export default function JobCard({
         <div className="card-text p-4 w-2/3 space-y-4 text-white ">
           <h3 className="text-lg">{jobTitle}</h3>
           <p className="text-sm">{jobDescription}</p>
+          <div className="text-sm">
+            {technologies ? <p>{technologies}</p> : <p></p>}
+          </div>
           <div className="buttons w-full space-x-3 pt-4">
             {demo ? (
               <>
-                <button className="bg-blue-400 h-9 w-16 hover:bg-blue-500 text-white font-bold py-2 px-4  rounded">
-                  Git
-                </button>
-                <button className="bg-blue-400 h-9 w-16 hover:bg-blue-500 text-white font-bold py-2 px-4  rounded">
-                  Visit
-                </button>
+                <Link href={github}>
+                  <button
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Code
+                  </button>
+                </Link>
+                <Link href={website}>
+                  <button
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Demo
+                  </button>
+                </Link>
               </>
             ) : (
               <Link href={website}>
