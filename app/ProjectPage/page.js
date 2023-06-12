@@ -1,6 +1,6 @@
 import React from 'react';
-import JobCard from '../compnents/JobCard/JobCard';
-import Logo from '../compnents/Logo/Logo';
+import JobCard from '../components/JobCard/JobCard';
+import Logo from '../components/Logo/Logo';
 
 export default function ProjectPage() {
   return (

@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import Logo from '../app/compnents/Logo/Logo';
+import Logo from './components/Logo/Logo';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
