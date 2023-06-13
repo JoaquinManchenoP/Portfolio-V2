@@ -23,8 +23,8 @@ export default function JobCard({
           />
         </div>
         <div className="card-text p-4 w-2/3 space-y-4 text-white ">
-          <h3 className="text-lg">{jobTitle}</h3>
-          <p className="text-sm">{jobDescription}</p>
+          <h3 className="text-2xl font-light">{jobTitle}</h3>
+          <p className="text-sm tracking-wide">{jobDescription}</p>
           <div className="text-sm">
             {technologies ? <p>{technologies}</p> : <p></p>}
           </div>

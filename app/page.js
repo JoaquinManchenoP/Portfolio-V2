@@ -37,7 +37,11 @@ export default function Home() {
           too look around and please don't hesitate to get in touch
         </div>
         <div className="links flex justify-between">
-          <Link href={'/ProjectPage'}>
+          <Link
+            href={
+              'https://drive.google.com/file/d/1j1ofx90r4n0J2kuC31p5_S0p09OgOoDl/view'
+            }
+          >
             <div className="projects__link space-x-2 space-y-2">
               <span className="font-bold pl-2">Resume</span>
               <span className="font-bold">{'>>>'}</span>
