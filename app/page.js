@@ -30,11 +30,11 @@ export default function Home() {
         </div>
         <div className="project__container ">
           I'm Joaquin Mancheno, a software engineer with a creative mind and a
-          hunger for making things happen. I am currently pursuing a Masters in
-          Data Science, and I also hold a Bachelor's degree in Computing in the
-          Arts. I've been in programming for a few years now and have some
-          academic and professional experience as a software developer.Feel free
-          too look around and please don't hesitate to get in touch
+          passion for learning. I am currently pursuing a Masters in Data
+          Science, I also hold a Bachelor's degree in Computing in the Arts and
+          a minor in Computer Information Systems. I have academic and
+          professional experience as a software developer .Feel free too look
+          around and please don't hesitate to get in touch.
         </div>
         <div className="links flex justify-between">
           <Link
@@ -47,7 +47,7 @@ export default function Home() {
               <span className="font-bold">{'>>>'}</span>
               <div className="description w-[250px]">
                 <span className="text-sm font-light">
-                  Take a look or download my resume
+                  Take a look or download my resume.
                 </span>
               </div>
             </div>
@@ -58,8 +58,7 @@ export default function Home() {
               <span className="font-bold">{'>>>'}</span>
               <div className="description w-[250px]">
                 <span className="text-sm font-light">
-                  A Collection of projects I've built on my journey to becoming
-                  a software developer.
+                  A collection of projects I've built.
                 </span>
               </div>
             </div>

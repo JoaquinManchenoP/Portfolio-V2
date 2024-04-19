@@ -34,12 +34,26 @@ export default function ProjectPage() {
           <h1 className="text-4xl my-7">Projects</h1>
           <div className="project__container space-y-6 pb-10">
             <JobCard
+              job={'Job Board'}
+              jobTitle={'Job Board'}
+              jobDescription={
+                'A website that allows users to find technical jobs, as well as post new jobs and manage them.'
+              }
+              technologies={
+                'Next.js, tailwind CSS, Framer Motion, Firebase, Vercel'
+              }
+              image={'/images/techbridge.png'}
+              website={'https://job-board-v2.vercel.app/'}
+              github={'https://github.com/JoaquinManchenoP/job-board-v2'}
+              demo={true}
+            />
+            <JobCard
               job={'Video Game Store'}
               jobTitle={'Video Game Store'}
               jobDescription={
                 'A website that consumes and displays data from rawg.io api and allows the user to search and get basic information of the latest videogames on ther market.'
               }
-              technologies={'Next.js, tailwind CSS Framer Motion'}
+              technologies={'Next.js, tailwind CSS, Framer Motion'}
               image={'/images/videogamestore.png'}
               website={'https://videogamestore-next.vercel.app/'}
               github={'https://github.com/JoaquinManchenoP/videogamestore-next'}
