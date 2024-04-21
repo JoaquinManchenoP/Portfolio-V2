@@ -39,7 +39,7 @@ export default function Home() {
         <div className="links flex justify-between">
           <Link
             href={
-              'https://drive.google.com/file/d/1j1ofx90r4n0J2kuC31p5_S0p09OgOoDl/view'
+              'https://drive.google.com/file/d/1WRqCYjsRPrt7grxyRqXGq0gzWosdW_9I/view?usp=sharing'
             }
           >
             <div className="projects__link space-x-2 space-y-2">

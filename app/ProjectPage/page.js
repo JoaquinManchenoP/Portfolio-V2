@@ -40,7 +40,7 @@ export default function ProjectPage() {
                 'A website that allows users to find technical jobs, as well as post new jobs and manage them.'
               }
               technologies={
-                'Next.js, tailwind CSS, Framer Motion, Firebase, Vercel'
+                'Next.js, Typscrypt, Tailwind CSS, Framer Motion, Firebase, Vercel'
               }
               image={'/images/techbridge.png'}
               website={'https://job-board-v2.vercel.app/'}
@@ -53,7 +53,7 @@ export default function ProjectPage() {
               jobDescription={
                 'A website that consumes and displays data from rawg.io api and allows the user to search and get basic information of the latest videogames on ther market.'
               }
-              technologies={'Next.js, tailwind CSS, Framer Motion'}
+              technologies={'Next.js, Tailwind CSS, Framer Motion'}
               image={'/images/videogamestore.png'}
               website={'https://videogamestore-next.vercel.app/'}
               github={'https://github.com/JoaquinManchenoP/videogamestore-next'}
@@ -69,6 +69,18 @@ export default function ProjectPage() {
               image={'/images/movieapp.png'}
               website={'https://react-movie-app-f0d0c.web.app/?'}
               github={'https://github.com/JoaquinManchenoP/react-movie-app'}
+              demo={true}
+            />
+            <JobCard
+              job={'Personal Blog'}
+              jobTitle={'Personal Blog'}
+              jobDescription={
+                'A personal blog that displays content using the contentful cms on the backend'
+              }
+              technologies={'React.js, Contentful CMS'}
+              image={'/images/blog.png'}
+              website={'https://music-blog-zee9u6npn.vercel.app/'}
+              github={'https://github.com/JoaquinManchenoP/music-blog'}
               demo={true}
             />
             <JobCard
